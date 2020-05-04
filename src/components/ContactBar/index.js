@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './contactStyle.css';
 import {Facebook,GitHub} from '@material-ui/icons';
 export default () => {
-    const [, set] = useState(initialState)
     useEffect(() => {
         return () => {
         }

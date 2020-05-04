@@ -1,0 +1,37 @@
+.contact-container {
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	right: 0.5%;
+}
+.icon-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.icon-itame {
+	transition: width 0.3s;
+	width: 30px;
+	margin-top: 3px;
+	background-color: #fff;
+	border-radius: 2px;
+	align-self: flex-end;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	padding: 3px;
+}
+
+.icon-itame h3 {
+	transition: font-size 0.4s;
+	font-size: 0;
+}
+.icon-itame:hover {
+	width: 170px;
+	justify-content: start;
+}
+
+.icon-itame:hover h3 {
+	font-size: 16px;
+}
